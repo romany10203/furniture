@@ -1,0 +1,623 @@
+* , ::after , ::before
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+p
+{
+    color: gray;
+}
+.clr
+{
+    clear: both;
+}
+.ovf-auto
+{
+    overflow: auto;
+}
+.w-60
+{
+    width:70%;
+}
+
+.pos-rel
+{
+    position: relative;
+}
+
+
+.header
+{
+    height:530px;
+    background-image:url("../images/2.jpg");
+    background-size: cover;
+}
+
+.forNav nav
+{
+    background-color:#FFF;
+    width: 70%;
+    margin: auto;
+}
+
+.forSlideNav a , .forNav a , .header a
+{
+    text-decoration:none;
+    color:rgb(25, 42, 80);
+}
+
+.forNav ul li
+{
+    list-style:none;
+    float: left;
+    color:rgb(15, 30, 61);
+    margin-left:30px;
+    font-size:18px;
+}
+
+.forNav nav li:hover .fa-arrow-right
+{
+    position: relative;
+    left:5px;
+}
+
+.headerDesc
+{
+    width: 50%;
+}
+
+.headerDesc h1
+{
+    font-family: 'Domine', serif;
+    font-size:70px;
+    font-weight: 900;
+}
+
+.headerDesc p
+{
+    font-size: 16px;
+    color:rgb(141, 140, 140);
+}
+
+.headerForm
+{
+    position: relative;
+}
+
+.headerForm input
+{
+    height:65px;
+}
+
+.headerForm button
+{
+    position: absolute;
+    right:13px;
+    top:13px;
+    bottom:13px;
+}
+.headerAbout
+{
+    width:100%;
+    background-color: rgb(230, 230, 230);
+}
+
+.headerAbout > div
+{
+    margin-left:40px;
+    width:70%;
+}
+
+.headerAbout .cust p
+{
+    font-weight:900;
+    font-size:xxx-large;
+    font-stretch:normal;
+}
+
+.headerAbout .cust
+{
+    position: relative;
+    float: left;
+    width:27%;
+}
+
+.headerAbout .cust::after
+{
+    content:"";
+    background-color: rgb(170, 170, 170);
+    position: absolute;
+    margin-right:20px;
+    margin-left:50px;
+    width: 1px;
+    top:15px;
+    bottom:15px;
+
+}
+
+.headerAbout .about
+{      
+    float:left;
+    width:70%;
+    padding:20px 30px;
+}
+
+.headerAbout .cust p
+{
+    color:rgb(0, 16, 54);
+}
+
+.prioTitle h2
+{
+    font-weight:700;
+}
+
+.prioTitle p
+{
+    margin: auto;
+    width: 40%;
+}
+
+.prioDesc .container
+{
+    width:65%;
+}
+
+.prio .point1
+{
+    margin: auto;
+    width: 5px;
+    height: 5px;
+    border-radius:50%;
+    background-color: #007bff;
+}
+
+.prio i , .aboutus .text-center i
+{
+    color:#007bff;
+    font-size:40px;
+    
+}
+
+.better
+{
+    height:350px;
+    background-image:url("../images/3.jpg");
+    background-size: cover;
+}
+
+.better div
+{
+    width:30%;
+}
+
+.aboutus h2
+{
+    width: 50%;
+    font-weight: 700;
+    font-size:40px;
+}
+
+.aboutus .text-center p
+{
+    font-size:15px;
+    color: rgb(0, 0, 0);
+}
+
+.aboutus .aboutDesc
+{
+    width:60%;
+    border-top:1px solid #CCC;
+    border-bottom:1px solid #CCC;
+}
+
+.aboutus p
+{
+    color:#c7c7c7;
+}
+
+.fa-star
+{
+    color:#ffd700 !important;
+}
+
+.stars
+{
+    position: absolute;
+    top:50%;
+    right:0;
+    font-size: 20px;
+}
+
+.aboutus .my-5
+{
+    width: 80%;
+    margin: auto;
+}
+
+.aboutus .my-5 img
+{
+    height: 60px;
+}
+
+.aboutus .my-5 p
+{
+    color: #c7c7c7;
+}
+
+.aboutus .my-5 .h5
+{
+    color: black;
+}
+
+.contant
+{
+    background-color: rgb(230, 230, 230);
+}
+
+.contant ul li
+{
+    list-style: none;
+    color:grey;
+    padding-bottom: 10px;
+}
+
+
+.contant ul .fr-logo
+{
+    color: black;
+    font-weight:bold;
+    font-size:x-large;
+    padding-bottom:18;
+}
+
+.contant ul .fr
+{
+    font-weight:600;
+    padding-bottom:18;
+    color: black;
+
+}
+
+body > p
+{
+    color: #c7c7c7;
+}
+
+.fa-quote-left
+{
+    font-size: 50px;
+    color: #eee;
+    position: absolute;
+    top:0%;
+    left: 90%;
+}
+
+.aboutDesc .d-block
+{
+    color: #ccc;
+}
+
+.fa-android , .fa-apple
+{
+    color: #007bff;
+}
+
+body > .btn
+{
+    border-radius: 0;
+}
+
+.upNow
+{
+    background-color: rgba(128, 128, 128, 0.5);
+    color: #FFF;
+    margin:20px;
+    position: fixed;
+    bottom: 0;
+    right:10px;
+}
+
+.contant .m-0
+{
+    font-size:13px;
+    color:#b8b8b8;
+}
+
+.headerAbout .about i
+{
+    position: absolute;
+    top: 0;
+    left:0px;
+    color: rgba(204, 204, 204, 0.329);
+}
+
+.head .btnNav
+{
+    width:20px;
+    height:20px;
+    background-color: #FFF;
+}
+
+.head .btnNav span
+{
+    width:80%;
+    margin-bottom: 5px;
+    margin-left:10%;
+    height:1px;
+    display: inline-block;
+    background-color:#000;
+}
+
+.head ul li
+{
+    list-style: none;
+}
+
+.slideNav
+{
+    display:none;
+    border:1px solid #646363;
+    border-radius:10px;
+    position: relative;
+    top: 0;
+    right:35%;
+    width:100px;
+    padding-left:20px;
+}
+
+.head .forSlideNav
+{
+    display:none;
+}
+
+.prios
+{
+    width: 80%;
+    height: 400px;
+}
+
+.prioImg
+{
+    width:50%;
+    float: right;
+}
+
+.prioImg .forimg
+{
+    width:100%;
+    position: absolute;
+    top:10%;
+    bottom: 10%;
+    right: 0;
+    z-index: -1;
+}
+
+.prioImg .forimg img
+{
+    width: 100%;
+}
+
+.prios .aboutPrio
+{
+    position: absolute;
+    width: 35%;
+    top:10%;
+    right:35%;
+    z-index: 1;
+    box-shadow:-10px 10px 10px #CCC;
+}
+
+
+
+
+                         /*\For Media(screens)/*/
+
+@media screen and (min-width:1199px)
+{
+    p , ul li , span
+    {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:1199px)
+{
+    p , ul li , span
+    {
+        font-size: 16px;
+    }
+    .stars
+    {
+        position: static;
+    }
+}
+
+@media screen and (max-width:1075px)
+{
+    .prios
+    {
+        display: none;
+    }
+}
+
+@media screen and (max-width:991px)
+{
+    .headerAbout .ovf-auto
+    {
+        width:80%
+    }
+    .prioTitle p
+    {
+        width:60%;
+    }
+    .better div
+    {
+        width:50%;
+    }
+    .aboutus .aboutDesc
+    {
+        width:75%;
+    }
+
+}
+
+@media screen and (max-width:880px)
+{
+    .headerAbout .ovf-auto
+    {
+        width:100%;
+    }
+    .aboutus .aboutDesc
+    {
+        width:80%;
+    }
+    p , ul li , span
+    {
+        font-size: 17px;
+    }
+    .forNav
+    {
+        display: none;
+    }
+    .head .forSlideNav
+    {
+        display: flex !important;
+    }
+}
+
+
+@media screen and (max-width:846px)
+{
+    .headerDesc
+    {
+        width:75%;
+    }
+}
+
+@media screen and (max-width:767px)
+{
+    .headerAbout
+    {
+        padding:30px 0px !important;
+    }
+    .headerAbout .cust
+    {
+        float: none;
+        text-align:center;
+        width:90%;
+        margin:auto;
+    }
+    .headerAbout .cust::after
+    {
+        content:none;
+    }
+    .headerAbout .about
+    {
+        width:95%;
+        margin: auto;
+    }
+    .prioTitle p
+    {
+        width:80%;
+    }
+    .aboutDesc .fa-quote-left
+    {
+        top:130%;
+        left: 100%;
+    }
+    .aboutus .aboutDesc
+    {
+        width:80%;
+    }
+    .stars
+    {
+        position: absolute;
+        top:50%;
+        right:0;
+        font-size: 20px;
+    }
+    .prios
+    {
+        display: none;
+    }
+    .prioDesc
+    {
+        width:90%;
+        margin: auto;
+    }
+    .prioDesc .container
+    {
+        width: 90%;
+        margin: auto;
+    }
+    .prioDesc .point1
+    {
+        display: none;
+    }
+    .prioDesc i
+    {
+        margin: 0;
+        padding: 0;
+        float: left;
+        font-size:17px;
+        padding: 0 10px;
+    }
+    .prioDesc .prio p
+    {
+        float: left;
+        font-size: 15px;
+    }
+    .priority
+    {
+        margin: auto;
+        width: 90%;
+    }
+    .prioDesc .desc
+    {
+        top: -10%;
+    }
+    .prioDesc .desc .bg-white
+    {
+        padding: 30px;
+        width:85%;
+        margin-left:7.5%;
+        box-shadow:5px 5px 20px #CCC;
+    }    
+    .prioDesc .row
+    {
+        display: flex !important;
+    }
+
+}
+
+@media screen and (max-width:575px) and (min-width:320px)
+{
+    .headerDesc
+    {
+        width:90%;
+    }
+    .better div
+    {
+        width:80%;
+    }
+    .better div
+    {
+        width:60%;
+    }
+    p , ul li , span
+    {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width:319px)
+{
+    *
+    {
+        display: none;
+    }
+}
